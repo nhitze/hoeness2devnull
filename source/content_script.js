@@ -27,7 +27,7 @@ function walk(node) {
 function handleText(textNode) {
     var v = textNode.nodeValue;
 
-    v = v.replace(/\bHoeness\b/ig, "deine Mama");
+    v = v.replace(/\bHoeness\b/ig, "/dev/null");
 
     textNode.nodeValue = v;
 }
